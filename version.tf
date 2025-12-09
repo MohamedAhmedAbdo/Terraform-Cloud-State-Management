@@ -1,5 +1,5 @@
 terraform {
-  required_version = "~> 1.13.3"
+  required_version = ">= 1.13.3"
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -13,16 +13,16 @@ terraform {
     }
   }
 
-  ## Use for CLI-Driven and local terraform operations
-  # cloud { 
+# Use for CLI-Driven and local terraform operations
+  cloud { 
 
-  #   organization = "amanpathak-devops" 
+    organization = "mohamed-abdo-org" 
 
-  #   workspaces { 
-  #     name = "demo-cli-driven-aws-workspace" 
-  #   } 
-  # } 
+    workspaces { 
+      name = "demo-cli-driven-aws-workspace" 
+    } 
+  } 
 
-  cloud {}
+  # cloud {}
 
 }
