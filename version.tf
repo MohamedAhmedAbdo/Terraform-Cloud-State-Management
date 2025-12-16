@@ -14,14 +14,13 @@ terraform {
   }
 
 # Use for CLI-Driven and local terraform operations
-  cloud { 
+  # cloud { 
 
-    organization = "mohamed-abdo-org" 
-
-    workspaces { 
-      name = "demo-cli-driven-aws-workspace" 
-    } 
-  } 
+  #   organization = "mohamed-abdo-org" 
+  #   workspaces { 
+  #     name = "demo-cli-driven-aws-workspace" 
+  #   } 
+  # } 
 
   # cloud {}
 
