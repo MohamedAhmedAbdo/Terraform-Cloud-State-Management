@@ -13,7 +13,7 @@ terraform {
     }
   }
 
-# Use for CLI-Driven and local terraform operations
+  # Use for CLI-Driven and local terraform operations
   # cloud { 
 
   #   organization = "mohamed-abdo-org" 
