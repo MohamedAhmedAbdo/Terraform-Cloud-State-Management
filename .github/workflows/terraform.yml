@@ -43,7 +43,7 @@ jobs:
         with:
           terraform_version: "1.13.3"
           terraform_wrapper: true
-          # cli_config_credentials_token: ${{ secrets. TF_API_TOKEN }}  # not mandatory you can comment this line 
+          cli_config_credentials_token: ${{ secrets. TF_API_TOKEN }}  # not mandatory you can comment this line 
 
       - name: Cache Terraform
         uses: actions/cache@v4
