@@ -35,6 +35,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Debug env (TEMP)    # I add this step to show which variables it read 
+        run: env | grep TF_
+
       - name: Setting Up the Terraform
         uses: hashicorp/setup-terraform@v3
         with:
